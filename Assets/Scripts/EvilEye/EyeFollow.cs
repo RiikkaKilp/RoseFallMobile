@@ -9,5 +9,6 @@ public class EyeFollow : MonoBehaviour {
 	void LateUpdate ()
     {
         transform.LookAt(followTarget);
-	}
+        //transform.rotation = Random.rotation;
+    }
 }
